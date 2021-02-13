@@ -1,9 +1,6 @@
+@import './custom.scss';
 @import './variables.scss';
-
-body {
-    background: $primary !important;
-}
-
+@import './fonts.scss';
 
 // Then import Bootstrap an BootstrapVue SCSS files (order is important)
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
