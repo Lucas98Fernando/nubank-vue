@@ -1,5 +1,6 @@
 <template>
-  <b-container id="hero" fluid>
+<section class="section" id="hero">
+  <b-container  fluid>
     <b-row align-v="center">
       <b-col lg="4">
           <h1>Pix: um novo jeito de fazer transferências e pagamentos</h1>
@@ -14,6 +15,7 @@
       </b-col>
     </b-row>
   </b-container>
+</section>
 </template>
 
 <script>
@@ -29,10 +31,10 @@ export default {
 
 <style lang="scss">
 @import "../assets/scss/variables.scss";
+@import "../assets/scss/custom.scss";
 
 #hero {
     background-color: $primary;
-    padding: 5rem 3rem;
 
     h1 {
         color: $whiteSecondary;
@@ -44,7 +46,7 @@ export default {
     a {
         color: $whiteSecondary;
         font-weight: 500;
-        font-size: 1.15rem;
+        font-size: 1.12rem;
     }
 }
 </style>

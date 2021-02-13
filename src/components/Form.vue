@@ -70,18 +70,21 @@ export default {
 
 .card-form {
   border-radius: 20px !important;
-  margin-left: 3.5rem;
+  margin-left: 4rem;
+  padding: 0.5rem;
   .form-header {
     h2 {
       font-size: 1.5rem;
-      padding-bottom: 2rem;
+      padding-bottom: 3rem;
     }
 
     input {
       border: none;
       border-bottom: 0.1rem solid rgba(17, 17, 17,  0.25);
       border-radius: 0;
-      margin-bottom: 1rem;
+      margin-bottom: 0.8rem;
+      font-size: 0.8rem;
+      padding: 0;
 
       &:focus {
         outline: none;
