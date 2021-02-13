@@ -10,6 +10,7 @@
     <Reinventing />
     <NuCommunity />
     <Blog />
+    <Footer />
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import Rewards from '@/components/Rewards.vue';
 import Reinventing from '@/components/Reinventing.vue';
 import NuCommunity from '@/components/NuCommunity.vue';
 import Blog from '@/components/Blog.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'Home',
@@ -37,6 +39,7 @@ export default {
     Reinventing,
     NuCommunity,
     Blog,
+    Footer,
   },
 };
 </script>

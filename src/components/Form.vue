@@ -8,7 +8,7 @@
         <b-form-input
           id="input-1"
           v-model="form.email"
-          type="email"
+          type="text"
           placeholder="Digite seu CPF"
           required
         ></b-form-input>

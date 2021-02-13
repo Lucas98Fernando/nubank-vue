@@ -14,8 +14,17 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "GraphikMedium", sans-serif !important;
+    font-family: "GraphikSemiBold", sans-serif !important;
     font-weight: 600;
+}
+
+p {
+    font-family: "GraphikRegular", sans-serif !important;
+    font-weight: 400;
+}
+
+hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 .section {
@@ -28,7 +37,8 @@ h6 {
 #rewards,
 #reinventing,
 #nu-community,
-#blog {
+#blog,
+#footer {
     padding: 4rem 5rem;
     // min-height: 100vh;
 
@@ -54,4 +64,8 @@ h6 {
             transform: rotateZ(-45deg);
         }
     }
+}
+
+.social-icon {
+    margin-left: 30px;
 }
