@@ -10,7 +10,7 @@
             de usar.
           </h2>
           <a href="#" id="know-more"
-            >Saiba mais <font-awesome-icon icon="arrow-right" class="arrow"
+            >Saiba mais <font-awesome-icon icon="arrow-right" class="arrow rotate"
           /></a>
         </b-col>
         <b-col lg="4" class="col-card">
@@ -50,10 +50,6 @@ export default {
         font-size: 3rem;
         font-weight: 500;
         color: rgb(192, 147, 251) !important;
-    }
-
-    .arrow {
-        transform: rotateZ(-45deg);
     }
 }
 

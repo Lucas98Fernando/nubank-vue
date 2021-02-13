@@ -8,6 +8,8 @@
     <CreditCard />
     <Rewards />
     <Reinventing />
+    <NuCommunity />
+    <Blog />
   </div>
 </template>
 
@@ -20,6 +22,8 @@ import NuConta from '@/components/NuConta.vue';
 import CreditCard from '@/components/CreditCard.vue';
 import Rewards from '@/components/Rewards.vue';
 import Reinventing from '@/components/Reinventing.vue';
+import NuCommunity from '@/components/NuCommunity.vue';
+import Blog from '@/components/Blog.vue';
 
 export default {
   name: 'Home',
@@ -31,6 +35,8 @@ export default {
     CreditCard,
     Rewards,
     Reinventing,
+    NuCommunity,
+    Blog,
   },
 };
 </script>
