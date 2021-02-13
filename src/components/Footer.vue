@@ -213,7 +213,7 @@ export default {
 @import "../assets/scss/custom.scss";
 
 #footer {
-  padding: 5rem 1rem !important;
+  padding: 5rem 3rem !important;
   background: $black;
 
   .container-fluid {
