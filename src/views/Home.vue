@@ -4,6 +4,10 @@
     <Navbar />
     <Header />
     <Benefits />
+    <NuConta />
+    <CreditCard />
+    <Rewards />
+    <Reinventing />
   </div>
 </template>
 
@@ -12,6 +16,10 @@
 import Navbar from '@/components/Navbar.vue';
 import Header from '@/components/Header.vue';
 import Benefits from '@/components/Benefits.vue';
+import NuConta from '@/components/NuConta.vue';
+import CreditCard from '@/components/CreditCard.vue';
+import Rewards from '@/components/Rewards.vue';
+import Reinventing from '@/components/Reinventing.vue';
 
 export default {
   name: 'Home',
@@ -19,6 +27,10 @@ export default {
     Navbar,
     Header,
     Benefits,
+    NuConta,
+    CreditCard,
+    Rewards,
+    Reinventing,
   },
 };
 </script>

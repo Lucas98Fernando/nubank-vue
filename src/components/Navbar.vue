@@ -51,6 +51,10 @@ export default {
 
 .navbar {
   padding: 0.6rem 2rem !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0px 1px 2px rgba(17, 17, 17, 0.2);
 
   .nav-item {
     &.active {

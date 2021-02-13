@@ -1,11 +1,42 @@
+@import "./variables.scss";
+
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
     font-family: "GraphikMedium", sans-serif !important;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "GraphikMedium", sans-serif !important;
+    font-weight: 600;
 }
 
 .section {
     padding: 5rem 2rem;
+}
+
+#benefits, #nu-conta, #credit-card, #rewards, #reinventing {
+    padding: 4rem 5rem;
+    // min-height: 100vh;
+
+    h2 {
+        color: $black;
+        font-weight: 500;
+        font-size: 2.9rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    a {
+        color: $primary;
+        font-weight: 500;
+        font-size: 1.12rem;
+    }
+
+    .arrow {
+        margin-left: 5px;
+        font-size: 16px;
+    }
 }
