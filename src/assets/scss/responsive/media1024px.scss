@@ -1,0 +1,50 @@
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 0.6rem 1rem !important;
+
+        .nav-link {
+            font-size: 0.8rem !important;
+            padding-right: 0.5rem !important;
+            padding-left: 0.5rem !important;
+
+            .badge {
+                font-size: 0.8rem !important;
+            }
+        }
+    }
+
+    #hero {
+        h1 {
+            font-size: 2.5rem !important;
+        }
+
+        .card-form {
+            margin-left: 0 !important;
+        }
+    }
+
+    #nu-conta,
+    #credit-card,
+    #rewards {
+
+        h2,
+        .cta-nu-conta,
+        .cta-credit-card,
+        .cta-rewards {
+            font-size: 2.3rem !important;
+        }
+
+        .phone-nu-conta {
+            width: 300px;
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .navbar {
+        .nav-link {
+            padding-right: 0.8rem !important;
+            padding-left: 0.8rem !important;
+        }
+    }
+}

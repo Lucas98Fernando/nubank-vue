@@ -2,7 +2,7 @@
   <section class="section" id="benefits">
     <b-container>
       <b-row align-v="center">
-        <b-col lg="7">
+        <b-col lg="7" md="6">
           <h2>
             Traga seu <br />
             FGTS e Auxílio <br />
@@ -14,7 +14,7 @@
             <font-awesome-icon icon="arrow-right" class="arrow"
           /></a>
         </b-col>
-        <b-col lg="5">
+        <b-col lg="5" md="6">
           <b-img
             class="girl-benefits"
             src="../assets/images/girl-benefits.webp"

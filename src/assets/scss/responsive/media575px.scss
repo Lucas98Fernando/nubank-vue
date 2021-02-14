@@ -1,0 +1,43 @@
+@media (max-width: 575px) {
+    body, html {
+        overflow-x: hidden;
+    }
+
+    #hero {
+        h1 {
+            font-size: 1.5rem !important;
+        }
+    }
+
+    #benefits,
+    #nu-conta,
+    #credit-card,
+    #rewards,
+    #reinventing,
+    #nu-community,
+    #blog {
+
+        h2,
+        .cta-nu-conta,
+        .cta-credit-card,
+        .cta-rewards {
+            font-size: 1.5rem !important;
+        }
+    }
+
+    #benefits {
+        .girl-benefits {
+            width: 100%;
+        }
+    }
+
+    #credit-card {
+        .col-card {
+            position: relative !important;
+
+            img {
+                margin-bottom: -2rem;
+            }
+        }
+    }
+}

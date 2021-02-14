@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+    .section {
+        padding: 1.8rem 0.5rem !important;
+    }
+
+    #benefits, #nu-conta, #credit-card, #rewards, #reinventing, #nu-community, #blog, #footer {
+        padding: 2rem 0.5rem !important;
+    }
+
+    .navbar {
+        .nav-link {
+            font-size: 0.75rem !important;
+        }
+    }
+}

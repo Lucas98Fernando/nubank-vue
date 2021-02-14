@@ -48,6 +48,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 @import '../assets/scss/variables.scss';
+@import "../assets/scss/responsive/media1024px.scss";
 
 .navbar {
   padding: 0.6rem 2rem !important;
@@ -66,8 +67,8 @@ export default {
       font-size: 1rem;
       font-weight: 500;
       color: rgba(17, 17, 17, 0.7) !important;
-      padding-right: 0.8rem !important;
-      padding-left: 0.8rem !important;
+      /* padding-right: 0.8rem !important;
+      padding-left: 0.8rem !important; */
 
       &:hover {
         color: $purpleLight !important;

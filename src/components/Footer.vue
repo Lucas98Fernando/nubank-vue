@@ -205,6 +205,11 @@ export default {
     YouTube,
     Twitter,
   },
+  data() {
+    return {
+      selected: 'first',
+    };
+  },
 };
 </script>
 

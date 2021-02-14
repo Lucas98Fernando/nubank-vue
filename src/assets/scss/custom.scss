@@ -1,4 +1,6 @@
 @import "./variables.scss";
+@import "./responsive/media1024px.scss";
+@import "./responsive/media575px.scss";
 
 html {
     scroll-behavior: smooth !important;
@@ -6,6 +8,7 @@ html {
 
 body {
     font-family: "GraphikMedium", sans-serif !important;
+    overflow-x: hidden;
 }
 
 h1,
@@ -41,6 +44,7 @@ hr {
 #footer {
     padding: 4rem 5rem;
     // min-height: 100vh;
+    position: relative;
 
     h2 {
         color: $black;

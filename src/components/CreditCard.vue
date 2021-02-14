@@ -30,6 +30,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/custom.scss";
+@import "../assets/scss/responsive/media575px.scss";
 
 #credit-card {
     position: relative;

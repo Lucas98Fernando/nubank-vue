@@ -1,6 +1,12 @@
+// Media queries
+@import './responsive/media1024px.scss';
+@import './responsive/media992px.scss';
+@import './responsive/media575px.scss';
+
 @import './custom.scss';
 @import './variables.scss';
 @import './fonts.scss';
+
 
 // Then import Bootstrap an BootstrapVue SCSS files (order is important)
 @import 'node_modules/bootstrap/scss/bootstrap.scss';

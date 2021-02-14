@@ -9,10 +9,10 @@
             <a href="#">Segura e sem complicações
                 <font-awesome-icon icon="arrow-right" class="arrow"/></a>
         </b-col>
-        <b-col lg="7">
+        <b-col lg="7" class="d-flex justify-content-end">
           <b-img
             class="phone-nu-conta"
-            src="../assets/images/phone-nu-conta@1x.webp"
+            src="../assets/images/phone-nu-conta@0.5x.png"
             fluid
           ></b-img>
         </b-col>
@@ -39,8 +39,8 @@ export default {
         font-weight: 500;
     }
 
-    /* .phone-nu-conta {
-        width: 900px;
-    } */
+    .phone-nu-conta {
+        width: 500px;
+    }
 }
 </style>
